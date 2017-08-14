@@ -20,7 +20,7 @@ import java.lang.annotation.*;
  * The annotation is also <code>@Inherited</code>, which means that classes which extend a class marked with this
  * annotation will inherit will also become a job, without having to be marked with the annotation as well.
  *
- * @see: com.taboola.scheduling.api.JobMethod
+ * @see com.taboola.cronyx.annotations.JobMethod
  */
 @Target({ElementType.TYPE})
 @Retention(RetentionPolicy.RUNTIME)
